@@ -12,10 +12,10 @@ background-color: #424e61;
 color: white;
 width: 100%;
 padding: 20px;
-font-size: medium;
+font-size: 38px;
 }
 .cabecalho-itens{
-max-width: 1980px;
+max-width: 3000px;
 margin: 0 auto;
 display: flex;
 align-items: center;
