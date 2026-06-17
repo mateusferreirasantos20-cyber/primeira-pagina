@@ -43,7 +43,6 @@ padding-right: 30px;
 .banner1{
 display: flex;
 justify-content: center;
-max-width: 100%;
 }
 .estudante_titulo{
 padding: 50px;
@@ -54,7 +53,8 @@ text-align: center;
 text-align: center;
 }
 .estudante-imagem{
-width: 120px;
+width: 160px;
+width: 220px;
 }
 .estudante-icone{
 width: 38px;
