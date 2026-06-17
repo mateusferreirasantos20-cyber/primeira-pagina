@@ -43,6 +43,7 @@ padding-right: 30px;
 .banner1{
 display: flex;
 justify-content: center;
+max-width: 100%;
 }
 .estudante_titulo{
 padding: 50px;
