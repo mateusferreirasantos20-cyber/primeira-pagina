@@ -88,7 +88,7 @@ border-radius: 16px;
   animation: trocaCor 3s infinite;
 }
 
-@keyframes trocaCo{
+@keyframes trocaCor{
   0%   { border-color: #47d44e; }
   50%  { border-color: #ffffff; }
   100% { border-color: #47d44e; }
