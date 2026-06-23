@@ -47,6 +47,7 @@ padding-right: 30px;
 }
 
 .banner1 {
+  position: relative;
   width: 100%;
 }
 
@@ -55,6 +56,19 @@ padding-right: 30px;
   height: auto;
   display: block;
   object-fit: cover;
+}
+
+.banner1-texto {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px black;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .estudante_titulo{
