@@ -34,7 +34,6 @@ align-items: center;
 }
 
 .titulo_site{
-padding: 50px;
 text-align: center;
 width: 50%;
 font: 30px;
@@ -55,6 +54,7 @@ padding-right: 30px;
   width: 100%;
   height: auto;
   display: block;
+  object-fit: cover;
 }
 
 .estudante_titulo{
