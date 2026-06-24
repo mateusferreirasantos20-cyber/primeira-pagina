@@ -88,6 +88,7 @@ border-radius: 16px;
   animation: trocaCor 3s infinite;
 }
 
+/*Keyframes trocaCor vai fazer as bordas de minhas imagens dos estudantes trocarem para essas cores logo abaixo*/
 @keyframes trocaCor{
   0%   { border-color: #47d44e; }
   25%   { border-color: #0f554f; }
@@ -104,7 +105,7 @@ border-radius: 12px;
 
 .estudante{
 background-color: #082c0e;
-  padding: 24px 0;
+  padding: 24px 0;/*é o espaçamento do conteúdo até a borda*/
 }
 
 .estudante-div{
@@ -118,13 +119,13 @@ justify-content: space-around;
 }
 
 .escola{
-background-image: linear-gradient(#082c0e,#247910);
+background-image: linear-gradient(#082c0e,#247910);/*cria um degradê entre duas ou mais cores */
 color: white;
 display: flex;
 justify-content:center;
 padding: 24px 0;
 text-align:center;
-display:block;
+display:block;/*faz esse elemento funcionar como um bloco*/
 }
 
 .escola-titulo{
@@ -148,18 +149,18 @@ text-decoration: none;
 
 /* Modelo do botão que abre o mapa */
 .botao-mapa {
-    display: inline-block;
+    display: inline-block;/*funciona como um bloco também,mas dessa vez podendo adicionar mais em forma de linha*/
     background-color: #3f612d; /* Verde escuro combinando com o site */
     color: #ffffff;
-    padding: 12px 24px;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
+    padding: 12px 24px;/*espaçament do elemento de dentro até a borda*/
+    font-size: 16px;/*Deixa o tamanho da letra para 16 pixels*/
+    font-weight: bold;/*Deixa o texto em negrito*/
+    text-transform: uppercase;/*Converte todo o texto para letras maiúsculas*/
     border: 2px solid #f2c12e; /* borda amarela */
-    border-radius: 5px;
+    border-radius: 5px;/*arredonda a borda criada*/
     cursor: pointer;/*Faz a seta do mouse virar a "mãozinha" de clique quando passa sobre o botão.*/
-    margin: 20px auto;
-    transition: all 0.3s ease;
+    margin: 20px auto;/*vai deixar meu elemento na horizontal*/
+    transition: all 0.3s ease;/*quando eu passar meu mouse por cima do botã,o vai mudar a cor lentamente*/
     list-style: none; /* Remove a setinha no Firefox/google */
 }
 
