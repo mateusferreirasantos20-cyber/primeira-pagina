@@ -155,3 +155,48 @@ padding: 12px 0;
 color: #ffffff;
 text-decoration: none;
 }
+/* Remove a setinha padrão do HTML para o elemento details */
+.mapa-retratil summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Modelo do botão que abre o mapa */
+.botao-mapa {
+    display: inline-block;
+    background-color: #3f612d; /* Verde escuro combinando com o site */
+    color: #ffffff;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #f2c12e; /* borda amarela */
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto;
+    transition: all 0.3s ease;
+    list-style: none; /* Remove a setinha no Firefox/google */
+}
+
+/* o efeito do mouse por cima do botão */
+.botao-mapa:hover {
+    background-color: #f2c12e;
+    color: #000000;
+}
+
+/* Espaço e largura do bloco do mapa */
+.mapa-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 8px;
+    overflow: hidden; /* Mantém as bordas do mapa arredondadas */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para deixar mai bonita */
+}
+
+/* Para que o mapa preencha todo o espaço do container */
+.mapa-container iframe {
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+
