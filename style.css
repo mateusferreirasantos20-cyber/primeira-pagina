@@ -147,21 +147,21 @@ text-decoration: none;
     display: none;
 }
 
-/* Modelo do botão que abre o mapa */
-.botao-mapa {
-    display: inline-block;/*funciona como um bloco também,mas dessa vez podendo adicionar mais em forma de linha*/
-    background-color: #3f612d; /* Verde escuro combinando com o site */
-    color: #ffffff;
-    padding: 12px 24px;/*espaçament do elemento de dentro até a borda*/
-    font-size: 16px;/*Deixa o tamanho da letra para 16 pixels*/
-    font-weight: bold;/*Deixa o texto em negrito*/
-    text-transform: uppercase;/*Converte todo o texto para letras maiúsculas*/
-    border: 2px solid #f2c12e; /* borda amarela */
-    border-radius: 5px;/*arredonda a borda criada*/
-    cursor: pointer;/*Faz a seta do mouse virar a "mãozinha" de clique quando passa sobre o botão.*/
-    margin: 20px auto;/*vai deixar meu elemento na horizontal*/
-    transition: all 0.3s ease;/*quando eu passar meu mouse por cima do botã,o vai mudar a cor lentamente*/
-    list-style: none; /* Remove a setinha no Firefox/google */
+        /* Modelo do botão que abre o mapa */
+        .botao-mapa {
+         display: inline-block;/*funciona como um bloco também,mas dessa vez podendo adicionar mais em forma de linha*/
+         background-color: #3f612d; /* Verde escuro combinando com o site */
+         color: #ffffff;
+        padding: 12px 24px;/*espaçament do elemento de dentro até a borda*/
+        font-size: 16px;/*Deixa o tamanho da letra para 16 pixels*/
+        font-weight: bold;/*Deixa o texto em negrito*/
+        text-transform: uppercase;/*Converte todo o texto para letras maiúsculas*/
+        border: 2px solid #f2c12e; /* borda amarela */
+        border-radius: 5px;/*arredonda a borda criada*/
+        cursor: pointer;/*Faz a seta do mouse virar a "mãozinha" de clique quando passa sobre o botão.*/
+        margin: 20px auto;/*vai deixar meu elemento na horizontal*/
+        transition: all 0.3s ease;/*quando eu passar meu mouse por cima do botã,o vai mudar a cor lentamente*/
+        list-style: none; /* Remove a setinha no Firefox/google */
 }
 
 /* o efeito do mouse por cima do botão */
@@ -176,8 +176,8 @@ text-decoration: none;
     max-width: 8000px;
     margin: 20px auto;
     border-radius: 8px;/*as bordas ficam arredondadas*/
-    overflow: hidden; /* Mantém as bordas do mapa arredondadas */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para deixar mai bonita */
+    overflow: hidden; /* tudo q tiver fora do meu elemento aqui vai sumir */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para deixar mais bonita */
 }
 
 /* Para que o mapa preencha todo o espaço do container */
