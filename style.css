@@ -176,7 +176,7 @@ text-decoration: none;
     max-width: 8000px;
     margin: 20px auto;
     border-radius: 8px;/*as bordas ficam arredondadas*/
-    overflow: hidden; /* tudo q tiver fora do meu elemento aqui vai sumir */
+    overflow: hidden; /* tudo q tiver fora do meu elemento vai sumir */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para deixar mais bonita */
 }
 
