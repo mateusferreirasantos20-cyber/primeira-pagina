@@ -171,8 +171,8 @@ text-decoration: none;
 
 /* Espaço e largura do bloco do mapa */
 .mapa-container {
-    width: 90%;
-    max-width: 800px;
+    width: 100%;
+    max-width: 8000px;
     margin: 20px auto;
     border-radius: 8px;/*as bordas ficam arredondadas*/
     overflow: hidden; /* Mantém as bordas do mapa arredondadas */
