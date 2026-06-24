@@ -90,8 +90,10 @@ border-radius: 16px;
 
 @keyframes trocaCor{
   0%   { border-color: #47d44e; }
-  50%  { border-color: #ffffff; }
-  100% { border-color: #47d44e; }
+  25%   { border-color: #0f554f; }
+  50%  { border-color: #4f1157; }
+  75%   { border-color: #791111; }
+  100% { border-color: #3d061f; }
 }
 .estudante-icone{
 width: 150px;
