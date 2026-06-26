@@ -30,11 +30,11 @@ justify-content: center;
 width: 10%;
 display: flex;
 justify-content: flex-start;
-align-items: center;
+align-items: center;/*deixa o elemento centralizado*/
 }
 
 .titulo_site{
-text-align: center;
+text-align: center;/*deixa o meu texto centralizado*/
 width: 50%;
 font: 30px;
 }
@@ -88,7 +88,7 @@ border-radius: 16px;
   animation: trocaCor 3s infinite;
 }
 
-/*Keyframes trocaCor vai fazer as bordas de minhas imagens dos estudantes trocarem para essas cores logo abaixo*/
+/*Keyframes trocaCor vai fazer as bordas de minhas imagens dos estudantes trocarem para essas cores */
 @keyframes trocaCor{
   0%   { border-color: #47d44e; }
   25%   { border-color: #0f554f; }
