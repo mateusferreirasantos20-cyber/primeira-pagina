@@ -68,7 +68,6 @@ padding-right: 30px;
   font-weight: bold;
   text-shadow: 2px 2px 8px black;
   text-align: center;
-  white-space: nowrap;
 }
 
 .estudante_titulo{
@@ -93,7 +92,7 @@ border-radius: 16px;
  
   50%  { border-color: #ffffff; }
 
-  100% { border-color: #000; }
+  100% { border-color: #4cee54; }
 }
 .estudante-icone{
 width: 150px;
