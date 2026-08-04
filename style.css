@@ -1,14 +1,13 @@
-
 *{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-
+ 
 body{
 font-family: "Poppins", Helvetica;
 }
-
+ 
 header{
 background-color: #082c0e;
 color: white;
@@ -17,7 +16,7 @@ padding: 20px;
 font-size: 38px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Helvetica;
 }
-
+ 
 .cabecalho-itens{
 max-width: 3000px;
 margin: 0 auto;
@@ -25,39 +24,39 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-
+ 
 .cabecalho-icone{
 width: 10%;
 display: flex;
 justify-content: flex-start;
 align-items: center;/*deixa o elemento centralizado*/
 }
-
+ 
 .titulo_site{
 text-align: center;/*deixa o meu texto centralizado*/
 width: 50%;
 font: 30px;
 }
-
+ 
 .sociais{
 display: flex;
 justify-content: flex-end;
 width: 25%;
 padding-right: 30px;
 }
-
+ 
 .banner1 {
   position: relative;
   width: 100%;
 }
-
+ 
 .banner1 img {
   width: 100%;
   height: auto;
   display: block;
   object-fit: cover;
 }
-
+ 
 .banner1-texto {
   position: absolute;
   bottom: 20px;
@@ -69,29 +68,29 @@ padding-right: 30px;
   text-shadow: 2px 2px 8px black;
   text-align: center;
 }
-
+ 
 .estudante_titulo{
 padding: 50px;
 text-align: center;
-
+ 
 }
-
+ 
 .estudante-nome{
 text-align: center;
 }
-
+ 
 .estudante-imagem{
 width: 220px;
 border-radius: 16px;
   border: 4px solid;
   animation: trocaCor 3s infinite;
 }
-
+ 
 /*Keyframes trocaCor vai fazer as bordas de minhas imagens dos estudantes trocarem para essas cores */
 @keyframes trocaCor{
  
   50%  { border-color: #ffffff; }
-
+ 
   100% { border-color: #4cee54; }
 }
 .estudante-icone{
@@ -100,22 +99,22 @@ padding: 4px 8px;
 border: 3px solid #000000;
 border-radius: 12px;
 }
-
+ 
 .estudante{
 background-color: #082c0e;
   padding: 24px 0;/*é o espaçamento do conteúdo até a borda*/
 }
-
+ 
 .estudante-div{
 text-align: center;
 padding: 24px 0;
 }
-
+ 
 .estudantes_todos{
 display: flex;
 justify-content: space-around;
 }
-
+ 
 .escola{
 background-image: linear-gradient(#082c0e,#247910);/*cria um degradê entre duas ou mais cores */
 color: white;
@@ -125,17 +124,17 @@ padding: 24px 0;
 text-align:center;
 display:block;/*faz esse elemento funcionar como um bloco*/
 }
-
+ 
 .escola-titulo{
 padding: 50px;
 text-align: center;
 }
-
+ 
 .logo_rodape{
 height: 180px;
 padding: 12px 0;
 }
-
+ 
 .link{
 color: #ffffff;
 text-decoration: none;
@@ -144,7 +143,7 @@ text-decoration: none;
 .mapa-retratil summary::-webkit-details-marker {
     display: none;
 }
-
+ 
         /* Modelo do botão que abre o mapa */
         .botao-mapa {
          display: inline-block;/*funciona como um bloco também,mas dessa vez podendo adicionar mais em forma de linha*/
@@ -161,13 +160,13 @@ text-decoration: none;
         transition: all 0.3s ease;/*quando eu passar meu mouse por cima do botã,o vai mudar a cor lentamente*/
         list-style: none; /* Remove a setinha no Firefox/google */
 }
-
+ 
 /* o efeito do mouse por cima do botão */
 .botao-mapa:hover {
     background-color: #f2c12e;
     color: #000000;
 }
-
+ 
 /* Espaço e largura do bloco do mapa */
 .mapa-container {
     width: 100%;
@@ -177,14 +176,15 @@ text-decoration: none;
     overflow: hidden; /* tudo q tiver fora do meu elemento vai sumir */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para deixar mais bonita */
 }
-
+ 
 /* Para que o mapa preencha todo o espaço do container */
-.mapa-container iframe {
+.mapa-container .mapa-imagem {
     width: 100%;
     height: 400px;
+    object-fit: cover;
     display: block;
 }
-
+ 
 .container-video{
 display: flex;
 flex-direction: column;
@@ -199,7 +199,7 @@ justify-content: center;
   font-weight: bold;
   text-align: center;
 }
-
+ 
 .centralizado{
   display: flex;
   justify-content: center;
