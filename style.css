@@ -27,7 +27,7 @@ justify-content: center;
  
 .cabecalho-icone{
 width: 10%;
-display: flex;
+display: flex;/*Deixa um contêiner mais fácil de ser adaptado para qualquer tamanho da tela*/
 justify-content: flex-start;/*os itens vão ficar colados no lado esquerdo*/
 align-items: center;/*deixa o elemento centralizado*/
 }
@@ -61,11 +61,11 @@ padding-right: 30px;
   position: absolute;
   bottom: 20px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%);/*move um elemento para a esquerda de uma distância em 50% da largura dele mesmo*/
   color: white;
   font-size: 2rem;
   font-weight: bold;
-  text-shadow: 2px 2px 8px black;
+  text-shadow: 2px 2px 8px black;/*faz uma sombra para deixar mais bonito*/
   text-align: center;
 }
  
@@ -157,7 +157,7 @@ text-decoration: none;
         border-radius: 5px;/*arredonda a borda criada*/
         cursor: pointer;/*Faz a seta do mouse virar a "mãozinha" de clique quando passa sobre o botão.*/
         margin: 20px auto;/*vai deixar meu elemento na horizontal*/
-        transition: all 0.3s ease;/*quando eu passar meu mouse por cima do botã,o vai mudar a cor lentamente*/
+        transition: all 0.3s ease;/*quando eu passar meu mouse por cima do botão vai mudar a cor lentamente*/
         list-style: none; /* Remove a setinha no Firefox/google */
 }
  
