@@ -206,3 +206,39 @@ justify-content: center;
   width: 100%;
   background-color: #082c0e;
 }
+.menu-vertical {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 200px;
+  background-color: #082c0e;
+  padding-top: 40px;
+  box-shadow: 2px 0 10px rgba(0,0,0,0.5);
+}
+
+.menu-vertical ul {
+  list-style: none;
+}
+
+.menu-vertical ul li {
+  margin-bottom: 8px;
+}
+
+.menu-vertical ul li a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 14px 24px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.menu-vertical ul li a:hover {
+  background-color: #f2c12e;
+  color: #000000;
+}
+
+body {
+  margin-left: 200px;
+}
