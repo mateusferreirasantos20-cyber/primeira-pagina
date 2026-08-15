@@ -18,23 +18,16 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Helvetica;
 }
  
 .cabecalho-itens{
-max-width: 3000px;
-margin: 0 auto;
+
 display: flex;
 align-items: center;
 justify-content: center;
 }
  
-.cabecalho-icone{
-width: 10%;
-display: flex;/*Deixa um contêiner mais fácil de ser adaptado para qualquer tamanho da tela*/
-justify-content: flex-start;/*os itens vão ficar colados no lado esquerdo*/
-align-items: center;/*deixa o elemento centralizado*/
-}
  
 .titulo_site{
 text-align: center;/*deixa o meu texto centralizado*/
-width: 50%;
+width: 1000%;
 font: 30px Arial;
 }
  
