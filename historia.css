@@ -1,0 +1,50 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ 
+body{
+font-family: "Poppins", Helvetica;/*Eu mudo a fonte da minha letra*/
+  margin-left: 200px;
+}
+ 
+header{
+background-color: #D3D3D3;
+color: white;
+width: 100%;
+padding: 20px;
+font-size: 38px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Helvetica;
+}
+.menu-vertical {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  background-color: #082c0e;
+  padding-top: 45px;
+}
+
+.menu-vertical ul {
+  list-style: none;
+}
+
+.menu-vertical ul li {
+  margin-bottom: 8px;
+}
+
+.menu-vertical ul li a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 14px 24px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.menu-vertical ul li a:hover {
+  background-color: #f2c12e;
+  color: #000000;
+}
