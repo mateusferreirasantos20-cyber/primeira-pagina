@@ -50,18 +50,6 @@ padding-right: 30px;
   object-fit: cover;
 }
  
-.banner1-texto {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);/*move um elemento para a esquerda de uma distância em 50% da largura dele mesmo*/
-  color: white;
-  font-size: 2rem;
-  font-weight: bold;
-  text-shadow: 2px 2px 8px black;/*faz uma sombra para deixar mais bonito*/
-  text-align: center;
-}
- 
 .estudante_titulo{
 padding: 50px;
 text-align: center;
