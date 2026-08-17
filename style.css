@@ -215,3 +215,17 @@ justify-content: center;
 body {
   margin-left: 200px;
 }
+.intro {
+  background-color: #082c0e;
+  padding: 60px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-texto {
+  max-width: 800px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: center;
+}
