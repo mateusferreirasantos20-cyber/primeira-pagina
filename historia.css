@@ -5,39 +5,33 @@ box-sizing: border-box;
 }
  
 body{
+margin-left: 200px;
 font-family: "Poppins", Helvetica;/*Eu mudo a fonte da minha letra*/
-  margin-left: 200px;
 }
  
 header{
-background-color: #D3D3D3;
+background-color: #147258;
 color: white;
 width: 100%;
 padding: 20px;
 font-size: 38px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Helvetica;
 }
+
 .menu-vertical {
   position: fixed;
   top: 0;
   left: 0;
   height: 100%;
   width: 200px;
-  background-color: #082c0e;
+  background-color: #3d817b;
   padding-top: 45px;
 }
 
-.menu-vertical ul {
-  list-style: none;
-}
-
-.menu-vertical ul li {
-  margin-bottom: 8px;
-}
-
 .menu-vertical ul li a {
+  margin-bottom: 8px;
   display: block;
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   padding: 14px 24px;
   font-weight: bold;
@@ -45,7 +39,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Helvetica;
 }
 
 .menu-vertical ul li a:hover {
-  background-color: #f2c12e;
+  background-color: #0ca8b2;
   color: #000000;
 }
 
