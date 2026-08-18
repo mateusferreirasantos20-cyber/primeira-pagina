@@ -9,7 +9,7 @@ font-family: "Poppins", Helvetica;/*Eu mudo a fonte da minha letra*/
 }
  
 header{
-background-color: #D3D3D3;
+background-color: #147258;
 color: white;
 width: 100%;
 padding: 20px;
@@ -60,21 +60,6 @@ text-align: center;
 text-align: center;
 }
  
-.estudante-imagem{
-width: 220px;
-border-radius: 16px;
-  border: 4px solid;
-  animation: trocaCor 3s infinite;
-}
- 
-/*Keyframes trocaCor vai fazer as bordas de minhas imagens dos estudantes trocarem para essas cores */
-@keyframes trocaCor{
- 
-  50%  { border-color: #ffffff; }
- 
-  100% { border-color: #4cee54; }
-}
- 
 .estudante{
 background-color: #082c0e;
   padding: 24px 0;/*é o espaçamento do conteúdo até a borda*/
@@ -91,7 +76,7 @@ justify-content: space-around;
 }
  
 .escola{
-background-image: linear-gradient(#082c0e,#247910);/*cria um degradê entre duas ou mais cores */
+background-image: #147258;/*cria um degradê entre duas ou mais cores */
 color: white;
 display: flex;
 justify-content:center;
@@ -122,13 +107,13 @@ text-decoration: none;
         /* Modelo do botão que abre o mapa */
         .botao-mapa {
          display: inline-block;/*funciona como um bloco também,mas dessa vez podendo adicionar mais em forma de linha*/
-         background-color: #3f612d; /* Verde escuro combinando com o site */
-         color: #ffffff;
+         background-color: #575c72; /* Verde escuro combinando com o site */
+         color: #000000;
         padding: 12px 24px;/*espaçament do elemento de dentro até a borda*/
         font-size: 16px;/*Deixa o tamanho da letra para 16 pixels*/
         font-weight: bold;/*Deixa o texto em negrito*/
         text-transform: uppercase;/*Converte todo o texto para letras maiúsculas*/
-        border: 2px solid #f2c12e; /* borda amarela */
+        border: 2px solid #000000; /* borda amarela */
         border-radius: 5px;/*arredonda a borda criada*/
         cursor: pointer;/*Faz a seta do mouse virar a "mãozinha" de clique quando passa sobre o botão.*/
         margin: 20px auto;/*vai deixar meu elemento na horizontal*/
@@ -138,7 +123,7 @@ text-decoration: none;
  
 /* o efeito do mouse por cima do botão */
 .botao-mapa:hover {
-    background-color: #f2c12e;
+    background-color: #3d817b;
     color: #000000;
 }
  
@@ -170,7 +155,7 @@ justify-content: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 37px;
   color: #ffffff;
-  background-color: #082c0e;
+  background-color: #147258;
   font-weight: bold;
   text-align: center;
 }
@@ -179,7 +164,7 @@ justify-content: center;
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #082c0e;
+  background-color: #147258;
 }
 .menu-vertical {
   position: fixed;
@@ -187,7 +172,7 @@ justify-content: center;
   left: 0;
   height: 100%;
   width: 200px;
-  background-color: #082c0e;
+  background-color: #3d817b;
   padding-top: 45px;
 }
 
@@ -209,7 +194,7 @@ justify-content: center;
 }
 
 .menu-vertical ul li a:hover {
-  background-color: #f2c12e;
+  background-color: #0ca8b2;
   color: #000000;
 }
 
