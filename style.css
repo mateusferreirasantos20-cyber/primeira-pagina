@@ -96,7 +96,7 @@ padding: 12px 0;
 }
  
 .link{
-color: #ffffff;
+color: #000000;
 text-decoration: none;
 }
 /* Remove a setinha padrão do HTML para o elemento details */
@@ -154,7 +154,7 @@ justify-content: center;
 .saul{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 37px;
-  color: #ffffff;
+  color: #000000;
   background-color: #147258;
   font-weight: bold;
   text-align: center;
@@ -186,7 +186,7 @@ justify-content: center;
 
 .menu-vertical ul li a {
   display: block;
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   padding: 14px 24px;
   font-weight: bold;
@@ -202,7 +202,7 @@ body {
   margin-left: 200px;
 }
 .intro {
-  background-color: #082c0e;
+  background-color: #147258;
   padding: 60px 40px;
   display: flex;
   justify-content: center;
@@ -210,7 +210,7 @@ body {
 
 .intro-texto {
   max-width: 800px;
-  color: #ffffff;
+  color: #000000;
   font-size: 18px;
   line-height: 1.8;
   text-align: center;
