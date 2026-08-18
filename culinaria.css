@@ -55,7 +55,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Helvetica;
 
 .titulo_site{
 text-align: center;/*deixa o meu texto centralizado*/
-width: 1000%;
+width: 100%;
 font: 30px Arial;
 color:black;
 }
