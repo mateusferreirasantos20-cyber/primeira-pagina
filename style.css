@@ -76,13 +76,12 @@ justify-content: space-around;
 }
  
 .escola{
-background-image: #147258;/*cria um degradê entre duas ou mais cores */
+background-color: #147258;/*cria um degradê entre duas ou mais cores */
 color: white;
 display: flex;
 justify-content:center;
 padding: 24px 0;
 text-align:center;
-display:block;/*faz esse elemento funcionar como um bloco*/
 }
  
 .escola-titulo{
