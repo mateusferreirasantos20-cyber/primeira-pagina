@@ -59,3 +59,18 @@ color:black;
   height: 800px;
   display: block
 }
+
+.estudante-div{
+text-align: center;
+padding: 24px 0;
+}
+
+.estudante-imagem{
+width: 220px;
+border-radius: 16px;
+  border: 4px solid
+}
+
+.estudante-nome{
+text-align: center;
+}
