@@ -81,3 +81,13 @@ border-radius: 16px;
 .estudante-nome{
 text-align: center;
 }
+
+.estudantes_todos{
+display: flex;
+justify-content: space-around;
+}
+
+.estudante{
+background-color: #082c0e;
+  padding: 24px 0;/*é o espaçamento do conteúdo até a borda*/
+}
