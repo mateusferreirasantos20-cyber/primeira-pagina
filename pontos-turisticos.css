@@ -60,6 +60,13 @@ color:black;
   display: block
 }
 
+.estudante-icone{
+width: 150px;
+padding: 4px 8px;
+border: 3px solid #000000;
+border-radius: 12px;
+}
+
 .estudante-div{
 text-align: center;
 padding: 24px 0;
