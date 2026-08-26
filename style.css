@@ -120,7 +120,7 @@ text-decoration: none;
         border-radius: 5px;/*arredonda a borda criada*/
         cursor: pointer;/*Faz a seta do mouse virar a "mãozinha" de clique quando passa sobre o botão.*/
         margin: 20px auto;/*vai deixar meu elemento na horizontal*/
-        transition: all 0.3s ease;/*quando eu passar meu mouse por cima do botão vai mudar a cor lentamente*/
+        transition: all 0.3s;/*quando eu passar meu mouse por cima do botão vai mudar a cor lentamente*/
         list-style: none; /* Remove a setinha no Firefox/google */
 }
  
@@ -205,7 +205,6 @@ justify-content: center;
   max-width: 800px;
   color: #000000;
   font-size: 18px;
-  line-height: 1.8;
   text-align: center;
 }
 .paragrafo{
