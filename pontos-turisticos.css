@@ -84,8 +84,8 @@ text-align: center;
 
 .estudantes_todos{
 display: flex;
-justify-content: space-around;
-align-items: center;
+justify-content: center;
+flex-wrap: wrap;
 }
 
 .estudante{
