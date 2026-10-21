@@ -77,7 +77,7 @@ justify-content: space-around;
 }
  
 .escola{
-background-color: #147258;/*cria um degradê entre duas ou mais cores */
+background-color: #1a9774;/*cria um degradê entre duas ou mais cores */
 color: white;
 display: flex;
 justify-content:center;
@@ -158,7 +158,7 @@ justify-content: center;
   font-family: Verdana, Tahoma, sans-serif;
   font-size: 37px;
   color: #000000;
-  background-color: #147258;
+  background-color: #1a9774;
   font-weight: bold;
   text-align: center;
 }
@@ -167,7 +167,7 @@ justify-content: center;
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #147258;
+  background-color: #1a9774;
 }
 .menu-vertical {
   position: fixed;
@@ -195,7 +195,7 @@ justify-content: center;
 }
 
 .intro {
-  background-color: #147258;
+  background-color: #1a9774;
   padding: 60px 40px;
   display: flex;
   justify-content: center;
