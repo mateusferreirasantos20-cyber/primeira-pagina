@@ -60,5 +60,6 @@ color:black;
   display: block
 }
 p{
-font-family: 'Inter', sans-serif;
+font-family: 'Inter';
+text-align: center;
 }
