@@ -59,3 +59,8 @@ color:black;
   height: 800px;
   display: block
 }
+
+p{
+font-family: 'Inter';
+text-align: center;
+}
