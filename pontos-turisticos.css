@@ -95,5 +95,5 @@ header {
 
 .estudante-nome {
   text-align: center; /*deixa o texto centralizado*/
-  margin-top: 8px;
+  margin-top: 8px; /*vai deixar um espaçamento entre a imagem e o texto*/
 }
