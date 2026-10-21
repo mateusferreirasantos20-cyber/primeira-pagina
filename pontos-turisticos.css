@@ -1,21 +1,21 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
- 
-body{
-margin-left: 200px;
-font-family: "Poppins", Helvetica;/*Eu mudo a fonte da minha letra*/
+
+body {
+  margin-left: 200px;
+  font-family: "Poppins", Helvetica, sans-serif; /* muda a fonte da letra */
 }
- 
-header{
-background-color: #147258;
-color: white;
-width: 100%;
-padding: 20px;
-font-size: 38px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Helvetica;
+
+header {
+  background-color: #147258;
+  color: white;
+  width: 100%;
+  padding: 20px;
+  font-size: 38px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Helvetica, sans-serif;
 }
 
 .menu-vertical {
@@ -26,6 +26,10 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Helvetica;
   width: 200px;
   background-color: #3d817b;
   padding-top: 45px;
+}
+
+.menu-vertical ul {
+  list-style: none; /* tira as bolinhas da lista */
 }
 
 .menu-vertical ul li a {
@@ -43,52 +47,55 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Helvetica;
   color: #000000;
 }
 
-.titulo_site{
-text-align: center;/*deixa o meu texto centralizado*/
-width: 100%;
-font: 30px Arial;
-color:black;
+.titulo_site {
+  text-align: center; /* deixa o texto centralizado */
+  width: 100%;
+  font: 30px Arial;
+  color: black;
 }
+
 .banner1 {
   position: relative;
   width: 100%;
 }
- 
+
 .banner1 img {
   width: 100%;
   height: 800px;
-  display: block
+  display: block;
+  object-fit: cover; /* evita que o banner fique esticado/distorcido */
 }
 
-.estudante-icone{
-width: 150px;
-padding: 4px 8px;
-border: 3px solid #000000;
-border-radius: 12px;
+/* ----- Cards dos pontos turísticos ----- */
+
+.estudante {
+  background-color: #147258;
+  padding: 24px 0; /* espaçamento do conteúdo até a borda */
 }
 
-.estudante-div{
-text-align: center;
-padding: 24px 0;
+.estudantes_todos {
+  display: flex;
+  justify-content: space-evenly; /* espaço igual nos dois lados e entre os cards */
+  flex-wrap: wrap;
 }
 
-.estudante-imagem{
-width: 220px;
-border-radius: 16px;
-  border: 4px solid
+.estudante-div {
+  width: 260px; /* largura fixa, igual para todos os cards */
+  text-align: center;
+  padding: 24px 0;
 }
 
-.estudante-nome{
-text-align: center;
+.estudante-imagem {
+  width: 220px;
+  height: 150px;      /* altura fixa, igual para todas as imagens */
+  object-fit: cover;  /* corta a imagem sem distorcer */
+  border-radius: 16px;
+  border: 4px solid #000000;
+  display: block;
+  margin: 0 auto;     /* centraliza a imagem dentro do card */
 }
 
-.estudantes_todos{
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-}
-
-.estudante{
-background-color: #147258;
-  padding: 24px 0;/*é o espaçamento do conteúdo até a borda*/
+.estudante-nome {
+  text-align: center;
+  margin-top: 8px;
 }
