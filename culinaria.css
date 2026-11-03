@@ -7,6 +7,7 @@ box-sizing: border-box;
 body{
 margin-left: 200px;
 font-family: "Poppins", Helvetica;/*Eu mudo a fonte da minha letra*/
+background-color: #f3f8f7
 }
  
 header{
@@ -52,6 +53,7 @@ color:black;
 .banner1 {
   position: relative;
   width: 100%;
+  object-fit: cover
 }
  
 .banner1 img {
