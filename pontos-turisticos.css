@@ -6,8 +6,10 @@
 
 body {
   margin-left: 200px;
-  font-family: "Poppins", Helvetica, sans-serif; /* muda a fonte da letra */
+  font-family: "Poppins", Helvetica; /* muda a fonte da letra */
+  background-color: #f3f8f7;
 }
+
 
 header {
   background-color: #1a9774;
