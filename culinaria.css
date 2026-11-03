@@ -70,6 +70,7 @@ header {
 p {
   font-family: 'Inter', Helvetica, sans-serif;
   text-align: center;
+  margin-bottom: 17px;
 }
 
 .conteudo {
