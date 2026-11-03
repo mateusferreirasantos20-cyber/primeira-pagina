@@ -1,22 +1,22 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
- 
-body{
-margin-left: 200px;
-font-family: "Poppins", Helvetica;/*Eu mudo a fonte da minha letra*/
-background-color: #f3f8f7;
+
+body {
+  margin-left: 200px;
+  font-family: "Poppins", Helvetica, sans-serif; /* fonte principal do site */
+  background-color: #f3f8f7;
 }
- 
-header{
-background-color: #1a9774;
-color: white;
-width: 100%;
-padding: 20px;
-font-size: 38px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Helvetica;
+
+header {
+  background-color: #1a9774;
+  color: white;
+  width: 100%;
+  padding: 20px;
+  font-size: 38px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Helvetica, sans-serif;
 }
 
 .menu-vertical {
@@ -27,6 +27,10 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Helvetica;
   width: 200px;
   background-color: #3d817b;
   padding-top: 45px;
+}
+
+.menu-vertical ul {
+  list-style: none; /* tira as bolinhas da lista */
 }
 
 .menu-vertical ul li a {
@@ -44,29 +48,30 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Helvetica;
   color: #000000;
 }
 
-.titulo_site{
-text-align: center;/*deixa o meu texto centralizado*/
-width: 100%;
-font: 30px Arial;
-color:black;
+.titulo_site {
+  text-align: center; /* deixa o texto centralizado */
+  width: 100%;
+  font: 30px Arial, Helvetica, sans-serif;
+  color: black;
 }
+
 .banner1 {
   position: relative;
   width: 100%;
-  object-fit: cover
 }
- 
+
 .banner1 img {
   width: 100%;
   height: 800px;
-  display: block
+  display: block;
+  object-fit: cover; /* evita que o banner fique esticado */
 }
 
-p{
-font-family: 'Inter';
-text-align: center;
+p {
+  font-family: 'Inter', Helvetica, sans-serif;
+  text-align: center;
 }
 
-.conteudo{
-background-color:#1a9774;
+.conteudo {
+  background-color: #1a9774;
 }

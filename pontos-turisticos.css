@@ -6,10 +6,9 @@
 
 body {
   margin-left: 200px;
-  font-family: "Poppins", Helvetica; /* muda a fonte da letra */
+  font-family: "Poppins", Helvetica, sans-serif; /* fonte principal do site */
   background-color: #f3f8f7;
 }
-
 
 header {
   background-color: #1a9774;
@@ -52,7 +51,7 @@ header {
 .titulo_site {
   text-align: center; /* deixa o texto centralizado */
   width: 100%;
-  font: 30px Arial;
+  font: 30px Arial, Helvetica, sans-serif;
   color: black;
 }
 
@@ -65,7 +64,11 @@ header {
   width: 100%;
   height: 800px;
   display: block;
-  object-fit: cover; /* evita que o banner fique esticado/distorcido */
+  object-fit: cover; /* evita que o banner fique esticado */
+}
+
+p {
+  font-family: 'Inter', Helvetica, sans-serif;
 }
 
 .estudante {
@@ -96,6 +99,6 @@ header {
 }
 
 .estudante-nome {
-  text-align: center; /*deixa o texto centralizado*/
-  margin-top: 8px; /*vai deixar um espaçamento entre a imagem e o texto*/
+  text-align: center; /* deixa o texto centralizado */
+  margin-top: 8px; /* espaçamento entre a imagem e o texto */
 }
