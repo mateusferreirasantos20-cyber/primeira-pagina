@@ -6,8 +6,8 @@
 
 body {
   margin-left: 200px;
-  font-family: "Poppins", Helvetica, sans-serif; /* fonte principal do site */
-    background-color: #1a9774;
+  font-family: "Poppins", Helvetica, sans-serif;
+  background-color: #1a9774;
 }
 
 header {
@@ -30,7 +30,7 @@ header {
 }
 
 .menu-vertical ul {
-  list-style: none; /* tira as bolinhas da lista */
+  list-style: none;
 }
 
 .menu-vertical ul li a {
@@ -49,27 +49,223 @@ header {
 }
 
 .titulo_site {
-  text-align: center; /* deixa o texto centralizado */
+  text-align: center;
   width: 100%;
   font: 30px Arial, Helvetica, sans-serif;
   color: black;
 }
 
-.banner1 {
+/* ===== Área do jogo: centraliza o quadrado ===== */
+.area-jogo {
+  min-height: calc(100vh - 74px);
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+
+/* O quadrado: nunca passa de 640px e sempre cabe na tela */
+#jogo {
+  --panel: #ffffff;
+  --bg: #f3f8f7;
+  --ink: #12332b;
+  --mute: #4f6b64;
+  --lane: #e1eeea;
+  --line: #b9d3cc;
+  --accent: #14745a;
+  --tile: #12332b;
+  --key: #ffffff;
+  --keyshadow: #a9c4bc;
+
   position: relative;
-  width: 100%;
-}
-
-.banner1 img {
-  width: 100%;
-  height: 800px;
-  display: block;
-  object-fit: cover; /* evita que o banner fique esticado */
-}
-
-p {
+  width: min(640px, calc(100vw - 200px - 40px), calc(100vh - 74px - 40px));
+  aspect-ratio: 1 / 1;
+  background: var(--bg);
+  color: var(--ink);
   font-family: 'Inter', Helvetica, sans-serif;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#jogo #app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#jogo #hud {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 12px 18px 6px;
+  font-variant-numeric: tabular-nums;
+}
+
+#jogo #score {
+  font-family: 'Poppins', Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+#jogo #combo {
+  font-size: 14px;
+  color: var(--mute);
+  text-align: right;
+}
+
+#jogo #combo b {
+  color: var(--accent);
+  font-size: 20px;
+  font-family: 'Poppins', Helvetica, sans-serif;
+}
+
+#jogo #hp {
+  height: 6px;
+  background: var(--line);
+  margin: 0 18px 8px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+#jogo #hpf {
+  height: 100%;
+  width: 100%;
+  background: var(--accent);
+  transition: width 0.15s;
+}
+
+#jogo #wrap {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+}
+
+#jogo canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  touch-action: none;
+}
+
+/* Telas por cima do jogo (menu, pausa, fim) */
+#jogo .ov {
+  position: absolute;
+  inset: 0;
+  background: rgba(243, 248, 247, 0.96);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 20px;
   text-align: center;
-  margin-bottom: 17px;
-  background-color: #1a9774;
+  z-index: 5;
+  overflow-y: auto;
+}
+
+#jogo .ov.hide {
+  display: none;
+}
+
+#jogo h1 {
+  font-family: 'Poppins', Helvetica, sans-serif;
+  font-size: 38px;
+  line-height: 1.1;
+  color: var(--ink);
+  text-align: center;
+  width: auto;
+  font-weight: 700;
+}
+
+#jogo h2 {
+  font-family: 'Poppins', Helvetica, sans-serif;
+  font-size: 28px;
+  color: var(--ink);
+}
+
+#jogo p {
+  background: none;
+  margin: 0;
+  color: var(--mute);
+  font-size: 14px;
+  line-height: 1.45;
+  max-width: 44ch;
+  text-align: center;
+}
+
+#jogo p.dica {
+  font-size: 12px;
+  max-width: none;
+}
+
+#jogo .row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#jogo button {
+  font-family: 'Inter', Helvetica, sans-serif;
+  font-size: 15px;
+  color: var(--ink);
+  background: var(--panel);
+  border: 1.5px solid var(--line);
+  padding: 7px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  min-height: 38px;
+}
+
+#jogo button:hover {
+  border-color: var(--accent);
+}
+
+#jogo button.on {
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--accent);
+  font-weight: 600;
+}
+
+#jogo button.go {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+  font-weight: 600;
+  padding: 9px 34px;
+  font-size: 17px;
+  min-height: 44px;
+}
+
+#jogo button:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
+#jogo .lbl {
+  font-size: 13px;
+  color: var(--mute);
+}
+
+#jogo .stats {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+#jogo #pauseb {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  z-index: 3;
+  min-height: 30px;
+  padding: 2px 10px;
+  font-size: 13px;
+  opacity: 0.85;
 }
