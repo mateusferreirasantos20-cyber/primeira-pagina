@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 200px;
+  font-family: "Poppins", Helvetica, sans-serif; /* fonte principal do site */
+    background-color: #1a9774;
+}
+
+header {
+  background-color: #1a9774;
+  color: white;
+  width: 100%;
+  padding: 20px;
+  font-size: 38px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+.menu-vertical {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  background-color: #3d817b;
+  padding-top: 45px;
+}
+
+.menu-vertical ul {
+  list-style: none; /* tira as bolinhas da lista */
+}
+
+.menu-vertical ul li a {
+  margin-bottom: 8px;
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  padding: 14px 24px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.menu-vertical ul li a:hover {
+  background-color: #0ca8b2;
+  color: #000000;
+}
+
+.titulo_site {
+  text-align: center; /* deixa o texto centralizado */
+  width: 100%;
+  font: 30px Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.banner1 {
+  position: relative;
+  width: 100%;
+}
+
+.banner1 img {
+  width: 100%;
+  height: 800px;
+  display: block;
+  object-fit: cover; /* evita que o banner fique esticado */
+}
+
+p {
+  font-family: 'Inter', Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 17px;
+  background-color: #1a9774;
+}
