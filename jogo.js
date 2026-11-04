@@ -1,6 +1,4 @@
-// ===== Teclas - Jogo de Ritmo =====
-// O jogo é montado dentro da <div id="jogo"> da página jogos.html.
-// Os estilos ficam no jogos.css.
+
 (function () {
   "use strict";
 
@@ -47,7 +45,7 @@
     '  </div>' +
     '</div>';
 
-  // semitons a partir do Dó central (C4)
+
   var SONGS = [
     { name: "Ode à Alegria", notes: [4,4,5,7,7,5,4,2,0,0,2,4,4,2,2,4,4,5,7,7,5,4,2,0,0,2,4,2,0,0,2,2,4,0,2,4,5,4,0,2,4,5,4,2,0,2,-5,4,4,5,7,7,5,4,2,0,0,2,4,2,0,0] },
     { name: "Brilha, Brilha", notes: [0,0,7,7,9,9,7,5,5,4,4,2,2,0,7,7,5,5,4,4,2,7,7,5,5,4,4,2,0,0,7,7,9,9,7,5,5,4,4,2,2,0] },
