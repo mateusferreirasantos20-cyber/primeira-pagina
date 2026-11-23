@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -11,6 +12,43 @@
     <link rel="stylesheet" href="jogos.css">
 </head>
 <body>
-    
+
+    <nav class="menu-vertical">
+        <ul>
+        <li><a href="index.html">Sobre</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="culinaria.html">Culinária</a></li>
+        <li><a href="pontos-turisticos.html">Pontos Turísticos</a></li>
+        <li><a href="jogos.html">Meu Jogo</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1 class="titulo_site">Entre em Contato</h1>
+    </header>
+
+    <main class="conteudo">
+        <h2>Fale comigo!</h2>
+        <p>Tem alguma dúvida ou sugestão sobre o meu site? 
+        Preencha o formulário abaixo!</p>
+
+        <form id="formContato">
+            <label>Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+            <label>E-mail:</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail" required>
+
+            <label>Mensagem:</label>
+            <textarea id="mensagem" placeholder="Escreva sua mensagem..." required></textarea>
+
+            <button type="submit">Enviar mensagem</button>
+        </form>
+
+        <p id="resposta"></p>
+    </main>
+
+    <script src="contato.js"></script>
 </body>
 </html>
