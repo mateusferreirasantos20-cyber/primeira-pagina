@@ -211,3 +211,31 @@ justify-content: center;
 .paragrafo{
 color: #000000;
 }
+
+.curiosidades {
+    background-color: #3d817b;
+    padding: 35px;
+    text-align: center;
+    color: black;
+}
+
+.curiosidades h2 {
+    margin-bottom: 15px;
+}
+
+.curiosidades button {
+    background-color: #575c72;
+    color: white;
+    padding: 12px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.curiosidades button:hover {
+    background-color: #0ca8b2;
+    transform: scale(1.05);
+}
