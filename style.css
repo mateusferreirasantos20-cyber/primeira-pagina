@@ -112,7 +112,7 @@ text-decoration: none;
         /* Modelo do botão que abre o mapa */
         .botao-mapa {
          display: inline-block;/*funciona como um bloco também,mas dessa vez podendo adicionar mais em forma de linha*/
-         background-color: #575c72; /* Verde escuro combinando com o site */
+         background-color: #3d817b; /* Verde escuro combinando com o site */
          color: #000000;
         padding: 12px 24px;/*espaçament do elemento de dentro até a borda*/
         font-size: 16px;/*Deixa o tamanho da letra para 16 pixels*/
