@@ -225,7 +225,7 @@ color: #000000;
 
 .curiosidades button {
     background-color: #3d817b;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 12px 20px;
     border: 2px solid black;
     border-radius: 8px;
