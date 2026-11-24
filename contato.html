@@ -33,18 +33,19 @@
         <p>Tem alguma dúvida ou sugestão sobre o meu site? 
         Preencha o formulário abaixo!</p>
 
-        <form id="formContato">
-            <label>Nome:</label>
-            <input type="text" id="nome" placeholder="Digite seu nome" required>
+     <form action="https://formsubmit.co/mateuscfdossantos@gmail.com" method="POST">
 
-            <label>E-mail:</label>
-            <input type="email" id="email" placeholder="Digite seu e-mail" required>
+    <label>Nome:</label>
+    <input type="text" name="nome" placeholder="Digite seu nome" required>
 
-            <label>Mensagem:</label>
-            <textarea id="mensagem" placeholder="Escreva sua mensagem..." required></textarea>
+    <label>E-mail:</label>
+    <input type="email" name="email" placeholder="Digite seu e-mail" required>
 
-            <button type="submit">Enviar mensagem</button>
-        </form>
+    <label>Mensagem:</label>
+    <textarea name="mensagem" placeholder="Escreva sua mensagem..." required></textarea>
+
+    <button type="submit">Enviar mensagem</button>
+</form>
 
         <p id="resposta"></p>
     </main>
